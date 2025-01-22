@@ -1,0 +1,44 @@
+/* Global Styles for 16-bit Aesthetic */
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #393DFF;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-shadow: 2px 2px #000000;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #393DFF;
+  font-weight: 700;
+  /* Heavier weight for button text */
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #393DFF;
+  color: #ffffff;
+  border-color: #ffffff;
+}
