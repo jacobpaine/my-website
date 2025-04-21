@@ -20,8 +20,25 @@ const projects: SmallCard[] = [
     thumbnail: "/tuner_wide.png",
   },
   {
+    title: "Study Timer",
+    description: "Timers with summaries for to help with practice and focus.",
+    technologies: ["React", "Typescript"],
+    demoLink: "https://finetunedfunctions.com/timer",
+    sourceCode: "https://github.com/jacobpaine/study-timer",
+    thumbnail: "",
+  },
+  {
+    title: "Journal",
+    description: "Pomodoro timers for to help with practice and focus.",
+    technologies: ["React", "Typescript", "IndexedDB"],
+    demoLink: "https://finetunedfunctions.com/journal",
+    sourceCode: "https://github.com/jacobpaine/violin-tuner",
+    thumbnail: "",
+  },
+
+  {
     title: "",
-    description: "More code on its way...",
+    description: "More projects forthcoming...",
     technologies: [],
     demoLink: "",
     sourceCode: "",
